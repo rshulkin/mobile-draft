@@ -6,14 +6,6 @@
 <html lang="en">
 <!-- All of the meta data for the page belongs in the head tag -->
 <head>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3JZ1Q6Z1EV"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'G-3JZ1Q6Z1EV');
-	</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Link to the favicon image & font -->
@@ -24,6 +16,15 @@
 	<!-- Link to the reset file -->
 	<link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<!-- linking google analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3JZ1Q6Z1EV"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-3JZ1Q6Z1EV');
+	</script>
 	<!-- Link to the stylesheet -->
 	<title>Home Page</title>
 </head>
@@ -31,6 +32,7 @@
 <!-- All of the visible code in the page belongs in the body tag -->
 <body>
 	<!--skip to main content-->
+	<!-- get this to not show up in mobile: add positioning  -->
 	<a class = "skip" href="#main">Skip to Main Content</a>
 	<!-- Header is a sematic tag page that aids readability -->
 	<header>

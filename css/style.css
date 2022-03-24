@@ -4,7 +4,11 @@
   background-color: #E5E2E1;
  }
 
-/* NAV STYLING */
+/* get this to stop showing up */
+ .skip{
+  top: 500px;
+}
+ /* NAV STYLING */
 
 li {
   list-style: none;
